@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Div Layout</title>
+    <link rel="stylesheet" href="CSS/StyleSheet1.css">
+    <link rel="stylesheet" href="CSS/StyleSheet_Menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <a href="http://127.0.0.1:5500/Assig2_Template/index.html"></a> 
+    <div class="container">
+        <div class="container">
+            <div class="header">
+                <table dir="ltr">
+                     <tr>
+                        <td><img src="logo9 - Copy.png" alt="HotBeans" width="70" height="80"></td>
+                        <td style="color: rgb(255, 255, 255);"><h1>Hot Beans</h1></td>
+                    </tr>
+                </table>
+      
+            
+
+            <ul>
+                <li><a id="op_Home">Home</a></li>                
+                <li><a id="op_Contact">Contact</a></li>
+                <li><a id="op_Teams">Our Teams</a></li>
+                <li><a id="op_joinUs">join Us</a></li>
+                  
+                <li style="float:right"><a id="op_About">About</a></li>
+            </ul>
+        </div>
+
+        <div id="home_section" class="section">
+            <center>
+                <h2>Hot Beans Web!</h2>
+                <img src="logo9 - Copy.png" alt="Company Picture" width="80" height="80">
+            </center>
+            <br /><br /><br /><br/>   
+            <h1>Hot Beans.CO:</h1>    
+            <p>&emsp; <b> HotBeans. From our base in stockport,<br>
+             UK, we design websites for clients in the UK., 
+             <br>we esnure our work is professional work. That is a garantee or money back to you!</b>
+<br><br><b>Visit: <br><a href="http://127.0.0.1:5500/Assig2_Template/index.html/contact_section"> 
+            Contact</a> 
+            "Contact if questions are in need"
+            </p>
+            <p>
+            <a href="http://127.0.0.1:5500/Assig2_Template/index.html/About"> About</a>
+            "gain information about us!!"
+            <a href="http://127.0.0.1:5500/Assig2_Template/index.html/Our_Teams">Our Teams</a>
+            "see how qualified our team of staff are!!"</b>
+        </p>
+        </div>
+        <div id="about_section" class="section" hidden>
+            <center>
+                <h1>About</h1>            
+            </center>
+            <h2>Join us now:</h2>
+            <p>&emsp;&nbsp;&nbsp;<b>we recorgnise hard workers and we reward them with promotions. <br>
+            Our amazing team of professionals will make sure everything is in order and manged timely and efficiently <br>
+            </b></p>
+            <h3></h3>
+            <p>&emsp;<b>Web developers can join us now we are hiring! we are looking for somone who is hard working that is willing to build beautiful websites that clients can be proud of, <br>
+            </b></p>
+            <h4></h4>
+            <p>&emsp;<b>
+            <p>
+               <b></b> <a href="http://127.0.0.1:5500/Assig2_Template/index.html/joinUs_section"> Join-Us</a>
+                "Wanting to join the team!!"
+            </p>
+
+        </div>
+
+        <div id="Teams_section" class="section" hidden>
+            <center>
+                <h2>Our Teams</h2>
+                <table>
+                    <tr>
+                        <td><img src="pakistan fan.png"    alt="Company Picture" width="100" height="100" style="border-radius: 50px;"></td>
+                        <td><img src="scammer.jpg" alt="Company Picture" width="100" height="100" style="border-radius: 50px;"></td>
+                        <td><img src="nitty.jpg" alt="Company Picture" width="100" height="100" style="border-radius: 50px;"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Mr Mohammad Qadir
+                        </td>
+                        <td>
+                            professor ismail ahmed Khan
+                        </td>
+                        <td>
+                            james Malik
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>
+                         Back end developer: 
+                            <br>
+                         Mr Mohammad is our special gem, he has the most experience with a total experience of 11 years and to this day is still working with us making sure everything is ran smoothly with his experience of a back end developer
+                        </b>
+                        </td>
+                        <td>
+                            <b>
+                            web designer: 
+
+
+                            <br>
+                            Professor ismail is our web designer he makes sure all our clients are left happy with their website design making sure the website is user friendly and is as expected by the cleints needs
+                        </b>
+                        </td>
+                        <td>
+                            <b>
+                           junior-developer:
+                            <br>
+                             james our junior-devolper is a very hard working individual who is constantly working hard with his clients, always been dedicated to his job at Netbeans
+                        </b>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </div>
+
+        <div id="contact_section" class="section" hidden>
+            <center>
+                <h2>Contact us</h2>
+            </center>
+            <form action="/action_page.php" style="justify-content:center">
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" value=""><br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="mes">Message:</label><br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<textarea id="mes" name="mes" rows="4" cols="50"></textarea><br><br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div id="joinUs_section" class="section" hidden>
+            <center>
+                <h2>Apply Now</h2>
+            </center>
+            <form name="form1" action="" onsubmit="return validateEntry()">
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" value=""><br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="email">Email:</label>
+                <input type="text" id="email" name="email" value=""><br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="notes">Notes:</label><br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<textarea id="notes" name="notes" rows="4" cols="50"></textarea><br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;<b>Upload Your CV: </b>
+                <input type="file"
+                       id="file1"
+                       name="upload">
+                <br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" value="Submit">
+            </form>          
+            
+        </div>
+
+        <div class="footer">
+          
+            <a href="https://www.facebook.com/traffordcollege/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript">
+        var _about_section = document.getElementById('about_section');
+        var _home_section = document.getElementById('home_section');
+        var _contact_section = document.getElementById('contact_section');
+        var _joinUs_section = document.getElementById('joinUs_section');
+        var _Teams_section = document.getElementById('Teams_section');
+
+
+        document.getElementById('op_joinUs').onclick = function () {
+            _about_section.hidden = true;
+            _home_section.hidden = true;
+            _contact_section.hidden = true;
+            _joinUs_section.hidden = false;
+            _Teams_section.hidden = true;
+        }
+
+        document.getElementById('op_Teams').onclick = function () {
+            _about_section.hidden = true;
+            _home_section.hidden = true;
+            _contact_section.hidden = true;
+            _joinUs_section.hidden = true;
+            _Teams_section.hidden = false;
+        }
+
+        document.getElementById('op_About').onclick = function () {
+            _about_section.hidden = false;
+            _home_section.hidden = true;
+            _contact_section.hidden = true;
+            _joinUs_section.hidden = true;
+            _Teams_section.hidden = true;
+        }
+
+        document.getElementById('op_Contact').onclick = function () {
+            _about_section.hidden = true;
+            _home_section.hidden = true;
+            _contact_section.hidden = false;
+            _joinUs_section.hidden = true;
+            _Teams_section.hidden = true;
+        }
+
+        document.getElementById('op_Home').onclick = function () {
+            _about_section.hidden = true;
+            _home_section.hidden = false;
+            _contact_section.hidden = true;
+            _joinUs_section.hidden = true;
+            _Teams_section.hidden = true;
+        }
+
+        function validateEntry() {
+            //var fn = document.getElementById('fname').value;
+            var fn = document.forms["form1"]["fname"].value;
+            //alert(fn);
+            if (fn == null || fn == "") { alert("Please enter first name"); }
+                        
+            var ln = document.forms["form1"]["lname"].value;
+            //alert(ln);
+            if (ln == null || ln == "") { alert("Please enter last name"); }
+        }
+    </script>
+</body>
+</html>
